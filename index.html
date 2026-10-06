@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Upload Program</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+       <h1>Student Upload</h1>
+       <p>Here is the student log which alows uploading of student programs, addind, and removing of studends that applied late.</p>
+       <div class="box">
+         <h2>Student Upload Program</h2>
+         <input id="name" placeholder="Student Name">
+         <input id="matric" placeholder="Matric No">
+         <input id="level" placeholder="Level e.g 200">
+         <input id="dept" placeholder="Department">
+         <button onclick="addstudent()">Add Student</button>
+         <button class="remove" onclick="removelast()">Remove Last student</button>
+         <h3>All Student</h3>
+         <div id="list"></div>
+        </div>
+        <script src="script.js"></script> 
+    </main>
+</body>
+</html>
